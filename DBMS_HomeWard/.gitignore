@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment secrets (never commit these)
+.env
+.env.local
+.env.*.local
+
+# Build output
+client/dist/
+dist/
+
+# Uploaded pet photos (keep the folder, ignore the files)
+!server/uploads/.gitkeep
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
